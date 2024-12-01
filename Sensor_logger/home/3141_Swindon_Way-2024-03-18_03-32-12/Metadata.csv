@@ -1,0 +1,2 @@
+version,device name,recording epoch time,recording time,recording timezone,platform,appVersion,device id,sensors,sampleRateMs,standardisation
+3,iPhone 12,1710819132498,2024-03-18_03-32-12,America/Indiana/Indianapolis,ios,1.31,391737b1-d20b-4068-a34e-dc9787ea9b48,Accelerometer|Gyroscope|Location|Microphone|Heart Rate|Network|Annotation|GyroscopeUncalibrated|AccelerometerUncalibrated,10|10|0|100|10|2000||10|10,false
