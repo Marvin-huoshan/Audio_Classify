@@ -1,7 +1,7 @@
 import os
+os.environ["OPENBLAS_NUM_THREADS"] = "32"
 import numpy as np
 import random
-import pandas as pd
 import librosa
 from tqdm import tqdm
 from sklearn.model_selection import KFold, train_test_split
@@ -14,10 +14,8 @@ from sklearn.svm import SVC
 from xgboost import XGBClassifier
 import copy
 
-import torch
-import torch.nn as nn
-import torch.optim as optim
-from torch.utils.data import DataLoader, TensorDataset
+
+
 
 # Parameter settings
 data_dir = "Instance"
@@ -94,7 +92,7 @@ def evaluate_ML_models(X_train, y_train, X_test, y_test):
 
 # Main rounds
 all_results = []
-top_k = 20
+top_k = 10
 def select_top_k_features(X_train, y_train, k):
     '''
     select top-k important features
