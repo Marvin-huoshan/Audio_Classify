@@ -28,8 +28,24 @@ Instance/
 │   ├── 4/
 │   ├── 5/
 ├── Cicada/
+│   ├── 1/
+│   ├── 2/
+│   ├── 3/
+│   ├── 4/
+│   ├── 5/
 ├── Termite/
+│   ├── 1/
+│   ├── 2/
+│   ├── 3/
+│   ├── 4/
+│   ├── 5/
 ├── Cricket/
+│   ├── 1/
+│   ├── 2/
+│   ├── 3/
+│   ├── 4/
+│   ├── 5/
+
 
 Use the main script to start training and evaluation:
 python Classfiy_round5_augementation.py
